@@ -30,7 +30,7 @@ services:
   environment:
     ELASTICSEARCH_HOSTS: https://elasticsearch:9200
     ELASTICSEARCH_USERNAME: kibana_system
-    ELASTICSEARCH_PASSWORD: <your-password>
+    ELASTICSEARCH_PASSWORD: public-password
     SERVER_SSL_ENABLED: true
     SERVER_SSL_CERTIFICATE: /usr/share/kibana/config/certs/kibana.pem
     SERVER_SSL_KEY: /usr/share/kibana/config/certs/kibana.key
